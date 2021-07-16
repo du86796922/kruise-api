@@ -18,3 +18,9 @@ Code changes are made in that location, merged into `openkruise/kruise` and late
 [https://github.com/openkruise/kruise/tree/master/apis](https://github.com/openkruise/kruise/tree/master/apis) is synced to here.
 All changes must be made in the former. The latter is read-only.
 
+## generate new client
+If you upgrade the client go version, please modify the corresponding go.mod file
+generate client
+```shell
+make generate
+```
